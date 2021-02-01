@@ -1,0 +1,42 @@
+@supports(display: grid) {
+    :root {
+        --theme-base: "black-highlighter";
+	    --theme-id: "scp-cs";
+	    --theme-name: "SCP-CS Theme";
+    
+        --header-title: "SCP Nadace";
+        --header-subtitle: "Česká Větev SCP Nadace";
+    }
+}
+
+/* This is a *fix* for the mobile top menu. I have no idea what I'm doing. CSS is awful. */
+#top-bar div.top-bar > ul,
+#top-bar div.mobile-top-bar > ul {
+	width: 160vw;
+}
+
+/* This changes the colors of boxes in sidebar so they can be used universally */ 
+:root {
+  --ct_bg_sidebar-blue: rgba(25, 86, 255, .22);
+  --ct_bg_sidebar-red: rgba(255, 43, 43, .13);
+  --ct_bg_sidebar-green: rgba(31, 219, 31, .15);
+  --ct_bg_sidebar-yellow: rgba(229, 210, 4, .22);
+}
+
+/* This brings the items in sidebar closer to the left */
+.menu-item {
+padding-left: 0 !important;
+}
+.menu-item a {
+padding-left: 7px !important;
+}
+
+/* This enlarges the social icons is sidebar, cuz they're like your pp */
+.blue img {
+width: 37px !important;
+}
+
+/* This is here for to fix the fucking "Top" in "Admin" in sidebar. Fuck you, whoever wrote the fucking code. */ 
+.topfix a {
+padding-right: 20px !important;
+}
