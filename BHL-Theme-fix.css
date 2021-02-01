@@ -25,18 +25,19 @@
 
 /* This brings the items in sidebar closer to the left */
 .menu-item {
-padding-left: 0 !important;
+  padding-left: 0 !important;
 }
+
 .menu-item a {
-padding-left: 7px !important;
+  padding-left: 7px !important;
 }
 
 /* This enlarges the social icons is sidebar, cuz they're like your pp */
 .blue img {
-width: 37px !important;
+  width: 37px !important;
 }
 
 /* This is here for to fix the fucking "Top" in "Admin" in sidebar. Fuck you, whoever wrote the fucking code. */ 
 .topfix a {
-padding-right: 20px !important;
+  padding-right: 20px !important;
 }
