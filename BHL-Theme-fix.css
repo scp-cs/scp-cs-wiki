@@ -6,6 +6,8 @@
     
         --header-title: "SCP Nadace";
         --header-subtitle: "Česká Větev SCP Nadace";
+	/* Fix for the icon in topbar that opens sidebar in mobile view */
+	--ct_bg_open-menu-button: display: none;
     }
 }
 
