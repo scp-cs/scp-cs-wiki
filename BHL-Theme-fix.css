@@ -41,3 +41,10 @@
 .topfix a {
   padding-right: 20px !important;
 }
+
+/* This is supposed to fix the sidebar in mobile view */
+.side-bar-container {
+background-color: inherit !important;
+overflow-y: visible !important;
+padding: 0 !important;
+}
