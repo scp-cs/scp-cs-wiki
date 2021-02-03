@@ -46,12 +46,23 @@
 
 /* This is supposed to fix the sidebar in mobile view */
 .side-bar-container {
-background-color: inherit !important;
-overflow-y: visible !important;
-padding: 0 !important;
+  background-color: inherit !important;
+  overflow-y: visible !important;
+  padding: 0 !important;
 }
 
-/* The "home" icon in topbar is centred now */
+/* The "home" icon in topbar is centred now and is somehow responsive */
 #top-bar ul li a.homebutton {
-background: url(https://grombald.github.io/Common-Theme/img/home_fff.png) center 8px no-repeat !important;
+  background: url(https://grombald.github.io/Common-Theme/svg/home_fff.svg) center 8px no-repeat !important;
+}
+
+#top-bar .mobile-top-bar ul li a.homebutton {
+  background: url(https://grombald.github.io/Common-Theme/svg/home_fff.svg) center 11px no-repeat !important;
+  background-image: var(--ct_bg_topbar-home);
+  -webkit-background-size: 25px 25px !important;
+  -moz-background-size: 25px 25px;
+  background-size: 25px 25px;
+  color: transparent;
+  padding: 10px 8px;
+  padding-bottom: 0;
 }
