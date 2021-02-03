@@ -50,3 +50,8 @@ background-color: inherit !important;
 overflow-y: visible !important;
 padding: 0 !important;
 }
+
+/* The "home" icon in topbar is centred now */
+#top-bar ul li a.homebutton {
+background: url(https://grombald.github.io/Common-Theme/img/home_fff.png) center 8px no-repeat !important;
+}
