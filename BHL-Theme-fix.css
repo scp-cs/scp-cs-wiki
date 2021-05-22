@@ -85,3 +85,8 @@
 #top-bar .mobile-top-bar .open-menu a {
     display: block !important;
 }
+
+/* Rate module fixes I guess */
+.page-rate-widget-box span {
+    height: 20px !important;
+}
