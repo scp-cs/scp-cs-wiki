@@ -3,10 +3,6 @@
 @supports(display: grid) {
     :root {
         --mono-font:Space Mono,Consolas,monaco,monospace;
-
-        --theme-base: "black-highlighter";
-	    --theme-id: "scp-cs";
-	    --theme-name: "SCP-CS Theme";
     
         --header-title: "SCP Nadace";
         --header-subtitle: "Česká Větev SCP Nadace";
