@@ -84,3 +84,7 @@
 .page-rate-widget-box span {
     height: 20px !important;
 }
+/* I was waken to fix this issue that's older than time itself */
+div.page-rate-widget-box span.rate-points{
+	background-color: rgb(var(--swatch-background)) !important;
+}
