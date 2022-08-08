@@ -84,12 +84,16 @@
 .page-rate-widget-box span {
     height: 20px !important;
 }
-/* I was waken to fix this issue that's older than time itself */
+/* I was awakened to fix this issue that's older than time itself */
 div.creditRate div.rateBox div.rate-box-with-credit-button div.creditButton,
 div.creditRate div.rateBox div.rate-box-with-credit-button div.creditButton a.fa.fa-info img.image,
 div.creditRate div.rateBox div.rate-box-with-credit-button div.page-rate-widget-box span.rate-points,
 div.creditRate div.rateBox div.rate-box-with-credit-button div.page-rate-widget-box span.cancel.btn.btn-default,
 div.creditRate div.rateBox div.rate-box-with-credit-button div.page-rate-widget-box,
-div.page-rate-widget-box span.rate-points{
-	background-color: rgb(var(--swatch-background));
+div.page-rate-widget-box span.rate-points {
+    background-color: rgb(var(--swatch-background));
+}
+.rate-box-with-credit-button .page-rate-widget-box .cancel {
+    border-top: 0px;
+    border-bottom: 0px;
 }
