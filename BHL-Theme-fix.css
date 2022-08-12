@@ -80,22 +80,26 @@
     display: block !important;
 }
 
-/* Rate module fixes I guess */
+/* Rate module fixes I guess
 .page-rate-widget-box span {
     height: 20px !important;
 }
-/* I was awakened to fix this issue that's older than time itself */
+/* I was awakened to fix this issue that's older than time itself 
 div.creditRate div.rateBox div.rate-box-with-credit-button div.creditButton,
 div.creditRate div.rateBox div.rate-box-with-credit-button div.creditButton a.fa.fa-info img.image,
 div.creditRate div.rateBox div.rate-box-with-credit-button div.page-rate-widget-box span.rate-points,
 div.creditRate div.rateBox div.rate-box-with-credit-button div.page-rate-widget-box span.cancel.btn.btn-default,
 div.creditRate div.rateBox div.rate-box-with-credit-button div.page-rate-widget-box {
     background-color: rgb(var(--swatch-background));
-}
+}*/
 div.page-rate-widget-box span.rate-points {
     background-color: rgb(var(--swatch-background)) !important;
 }
 .rate-box-with-credit-button .page-rate-widget-box .cancel {
     border-top: 0px;
     border-bottom: 0px;
+}
+/* This is a fix for cerntral alignment of the individual signs in the module. It can be fixed by replacing the code in info:start by what EN has, but we use Common Theme and so replacing the code fucks up the module in Sigma-9-based themes. I love my life. */
+.rate-box-with-credit-button .creditButton { 
+    height: 16px !important;
 }
