@@ -24,22 +24,8 @@
 }
 
 /* This brings the items in sidebar closer to the left */
-.menu-item {
-  padding-left: 0 !important;
-}
-
 .menu-item a {
   padding-left: 7px !important;
-}
-
-/* This enlarges the social icons is sidebar, cuz they're like your pp */
-.blue img {
-  width: 37px !important;
-}
-
-/* This is here for to fix the fucking "Top" in "Admin" in sidebar. Fuck you, whoever wrote the fucking code. */ 
-.topfix a {
-  padding-right: 20px !important;
 }
 
 /* This is supposed to fix the sidebar in mobile view */
@@ -49,56 +35,23 @@
   padding: 0 !important;
 }
 
-/* The "home" icon in topbar is now centred and somehow responsive */
-#top-bar ul li a.homebutton {
-  background: url(https://grombald.github.io/Common-Theme/svg/home_fff.svg) center 7px no-repeat !important;
-  background-image: var(--ct_bg_topbar-home);
-  -webkit-background-size: 15px 15px !important;
-  -moz-background-size: 15px 15px;
-  background-size: 15px 15px;
-  color: transparent;
-  padding: 10px 8px;
-}
-
-#top-bar .mobile-top-bar ul li a.homebutton {
-  background: url(https://grombald.github.io/Common-Theme/svg/home_fff.svg) center 11px no-repeat !important;
-  background-image: var(--ct_bg_topbar-home);
-  -webkit-background-size: 25px 25px !important;
-  -moz-background-size: 25px 25px;
-  background-size: 25px 25px;
-  color: transparent;
-  padding: 10px 8px;
-  padding-bottom: 0;
-}
-
-/* This discards the useless open-menu in topbar for tablets because BHL has its own workaround and it just widened the page to the right */
+/* This gets rid of the useless open-menu in topbar for tablets because BHL has its own workaround and it just widened the page to the right */
 #top-bar .open-menu a {
     display: none !important;
 }
-
 #top-bar .mobile-top-bar .open-menu a {
     display: block !important;
 }
 
-/* Rate module fixes I guess */
-.page-rate-widget-box span {
-    height: 20px !important;
-}
 /* I was awakened to fix this issue that's older than time itself */
-div.creditRate div.rateBox div.rate-box-with-credit-button div.creditButton,
-div.creditRate div.rateBox div.rate-box-with-credit-button div.creditButton a.fa.fa-info img.image,
-div.creditRate div.rateBox div.rate-box-with-credit-button div.page-rate-widget-box span.rate-points,
-div.creditRate div.rateBox div.rate-box-with-credit-button div.page-rate-widget-box span.cancel.btn.btn-default,
-div.creditRate div.rateBox div.rate-box-with-credit-button div.page-rate-widget-box {
-    background-color: rgb(var(--swatch-background));
-}
-div.page-rate-widget-box span.rate-points {
-    background-color: rgb(var(--swatch-background)) !important;
+.page-rate-widget-box .cancel, .page-rate-widget-box .cancel a, .page-rate-widget-box .rate-points, .page-rate-widget-box .ratedown, .page-rate-widget-box .ratedown a, .page-rate-widget-box .rateup, .page-rate-widget-box .rateup a {
+    background-color: transparent !important;
 }
 .rate-box-with-credit-button .page-rate-widget-box .cancel {
     border-top: 0px;
     border-bottom: 0px;
 }
+
 /* This is a fix for cerntral alignment of the individual signs in the module. It can be fixed by replacing the code in info:start by what EN has, but we use Common Theme and so replacing the code fucks up the module in Sigma-9-based themes. I love my life. */
 .rate-box-with-credit-button .creditButton { /* Centers the "info button" */
     height: 63% !important;
